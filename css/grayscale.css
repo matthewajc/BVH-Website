@@ -124,14 +124,14 @@
 .short-text {
   display: none;
 }
-/* @media (max-width: 444px) {
+@media (max-width: 444px) {
   .short-text {
     display: inline-block;
   }
   .full-text {
     display: none;
   }
-} */
+}
 @media (min-width: 768px) {
   .masthead h1 {
     font-size: 4rem;
