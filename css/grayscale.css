@@ -330,6 +330,24 @@
   color: #fff;
 }
 
+.wrap-margin {
+  margin-right: 0.5rem;
+}
+@media (max-width: 768px) {
+  .wrap {
+    flex-wrap: wrap;
+  }
+  .wrap-margin {
+    margin-bottom: 1.6rem;
+  }
+}
+@media (max-width: 575px) {
+  .wrap-margin {
+    margin-bottom: 2.5rem;
+    margin-right: 0px;
+  }
+}
+
 body {
   font-family: "Nunito";
   letter-spacing: 0.0625em;
